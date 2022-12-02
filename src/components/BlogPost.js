@@ -4,7 +4,7 @@ import "./App.css";
 
 const query = `
     {
-      user(username: "heavenly") {
+      user(username: "Heavenly") {
         publication {
           posts{
             slug
@@ -48,7 +48,7 @@ class Blogposts extends React.Component {
     return (
       <div class="container">
         {this.state.posts.map((post, index) => (
-          <a key={index} href={`https://blog.heavenly.dev/${post.slug}`}>
+          <a key={index} href={`https://heavenly.hashnode.dev/${post.slug}`}>
             <Post post={post} />
           </a>
         ))}

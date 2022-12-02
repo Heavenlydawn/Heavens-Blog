@@ -5,7 +5,7 @@ const NavBar = () => {
 
     return (
         <div className="nav">
-            <h2> Heaven</h2>
+            <h2> Heaven's Blog</h2>
             <div className="icons">
                 <a href="https://github.com/Heavenlydawn?tab=repositories">
                     <i class="fa fa-2x fa-github-alt" aria-hidden="true"></i>

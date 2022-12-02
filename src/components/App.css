@@ -25,6 +25,14 @@
   padding: 10px 20px 0px 20px;
   text-align: center;
 }
+.nav h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-size:4em;
+  margin-left:50px;
+}
 .icons {
   margin-top: 15px;
   margin-left: auto;

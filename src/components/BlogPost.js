@@ -20,7 +20,7 @@ const query = `
 class Blogposts extends React.Component {
   state = {
     posts: [],
-    loading: true,
+    
   };
 
   componentDidMount() {
@@ -40,7 +40,7 @@ class Blogposts extends React.Component {
     console.log(ApiResponse.data.user.publication.posts);
     this.setState({
       posts: ApiResponse.data.user.publication.posts,
-      loading: false,
+      
     });
   };
 

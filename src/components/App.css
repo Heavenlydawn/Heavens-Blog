@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: row;
   max-width: 90%;
-  margin: auto;
+  margin:0 auto;
   padding: 10px 20px 0px 20px;
   text-align: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -34,7 +34,7 @@
 .nav h2{
   align-items: center;
   text-align:center;
-  font-size:4em;
+  font-size:3em;
   color:#000;
   text-transform: uppercase;
   font-weight: bold;
